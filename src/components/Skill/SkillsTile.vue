@@ -7,7 +7,7 @@
     <hr />
     <div v-for="skill in data.skills" :key="skill.nom">
       <span>
-        <p style="margin-bottom:0.5em">{{skill.nom}} :</p>
+        <p style="margin-bottom:0.5em">{{ skill.nom }} :</p>
         <ProgressBar :pourcentage="skill.pourcentage" :color="data.color" />
       </span>
     </div>

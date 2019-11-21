@@ -5,12 +5,20 @@
     <form action>
       <h1 class="title">{{ titre }}</h1>
       <hr class="has-margin-bottom-5" />
-      <input class="input has-margin-bottom-6" type="text" :placeholder="inputNom" />
-      <input class="input has-margin-bottom-6" type="text" :placeholder="inputMail" />
+      <input
+        class="input has-margin-bottom-6"
+        type="text"
+        :placeholder="inputNom"
+      />
+      <input
+        class="input has-margin-bottom-6"
+        type="text"
+        :placeholder="inputMail"
+      />
       <div class="control has-margin-bottom-2">
         <textarea class="textarea" :placeholder="commentaire"></textarea>
       </div>
-      <button class="button is-info">{{button}}</button>
+      <button class="button is-info">{{ button }}</button>
     </form>
   </article>
 </template>
@@ -30,5 +38,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

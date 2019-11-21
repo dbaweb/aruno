@@ -2,7 +2,9 @@
   <section id="skills" class="hero is-fullheight">
     <NavBar></NavBar>
     <div class="container has-text-centered">
-      <h1 class="title is-1 has-margin-bottom-6 has-margin-top-7">{{ titre }}</h1>
+      <h1 class="title is-1 has-margin-bottom-6 has-margin-top-7">
+        {{ titre }}
+      </h1>
       <TilesSkills></TilesSkills>
     </div>
     <Footer></Footer>

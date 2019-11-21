@@ -1,17 +1,51 @@
-# .gitlab-ci.yml file to be placed in the root of your repository
-
-pages: # the job must be named pages
+# ------------ Node Version ----------------------
+.node-image: &node-image
   image: node:latest
-  stage: deploy
+
+# ------------  CI Stages ------------------------
+stages:
+  - build
+  - lint-frontend
+  - unit-test
+  - deploy
+
+# ------------ Build Front End -------------------
+build-frontend:
+  <<: *node-image
+  stage: build
+  artifacts:
+    untracked: true
+  cache:
+      paths:
+      - node_modules/
   script:
-    - npm ci
-    - npm run build
-    - mv public public-vue # GitLab Pages hooks on the public folder
-    - mv dist public # rename the dist folder (result of npm run build)
-    # optionally, you can activate gzip support wih the following line:
-    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
+    - yarn install
+    - yarn run build
+# ------------ End of Build Front End ------------
+
+# ------------ Lint Front End --------------------
+lint-frontend:
+  <<: *node-image
+  stage: lint-frontend
+  dependencies:
+    - build-frontend
+  script:
+    - yarn run ci:lint
+# ------------ End of Lint Front End -------------
+
+
+# ------------ Deploy Front End ------------------
+pages:
+  <<: *node-image
+  stage: deploy
+  dependencies:
+      - build-frontend
+  script:
+    - mv public public-vue
+    - mv dist public
   artifacts:
     paths:
-      - public # artifact path must be /public for GitLab Pages to pick it up
+      - public
   only:
     - master
+# ------------ End of Deploy Front End -----------

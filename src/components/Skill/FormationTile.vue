@@ -1,10 +1,16 @@
 <template>
-  <article class="tile is-child notification has-padding-5 has-text-left article-white">
+  <article
+    class="tile is-child notification has-padding-5 has-text-left article-white"
+  >
     <div class="content">
-      <h1 class="title">{{data.titre}}</h1>
+      <h1 class="title">{{ data.titre }}</h1>
       <hr />
     </div>
-    <Formation v-for="item in data.formations" :key="item.nom" :data="item"></Formation>
+    <Formation
+      v-for="item in data.formations"
+      :key="item.nom"
+      :data="item"
+    ></Formation>
   </article>
 </template>
 
@@ -17,5 +23,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

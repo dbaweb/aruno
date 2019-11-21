@@ -1,5 +1,7 @@
 <template>
-  <box class="tile is-child notification has-text-grey-dark has-background-white">
+  <box
+    class="tile is-child notification has-text-grey-dark has-background-white"
+  >
     <p class="title is-4">{{ title }}</p>
     <p class="subtitle is-6">{{ subtitle }}</p>
     <p
@@ -7,7 +9,9 @@
       class="techno has-text-white"
       :class="item.couleur"
       v-bind:key="item"
-    >{{ item.nom }}</p>
+    >
+      {{ item.nom }}
+    </p>
     <br />
     <button class="button is-primary">Lien</button>
   </box>

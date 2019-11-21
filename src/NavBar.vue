@@ -1,8 +1,14 @@
 <template>
-  <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar is-transparent is-spaced"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="container">
       <div class="navbar-brand">
-        <router-link class="navbar-item is-size-4 has-text-light" to="/">Aruno</router-link>
+        <router-link class="navbar-item is-size-4 has-text-light" to="/"
+          >Aruno</router-link
+        >
         <a
           role="button"
           class="navbar-burger burger"
@@ -10,7 +16,7 @@
           aria-expanded="false"
           data-target="navbar-menu"
           @click="isOpen = !isOpen"
-          :class="{'is-active': isOpen}"
+          :class="{ 'is-active': isOpen }"
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -26,7 +32,8 @@
             :key="item.item"
             :to="item.route"
             class="navbar-item is-size-4 has-text-light"
-          >{{item.item}}</router-link>
+            >{{ item.item }}</router-link
+          >
         </div>
       </div>
     </div>

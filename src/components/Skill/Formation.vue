@@ -1,8 +1,8 @@
 <template>
   <div class="content">
-    <h2>{{ data.nom}}</h2>
-    <p>{{data.type}} - {{ data.lieu}}</p>
-    <h5>{{ data.diplome}}</h5>
+    <h2>{{ data.nom }}</h2>
+    <p>{{ data.type }} - {{ data.lieu }}</p>
+    <h5>{{ data.diplome }}</h5>
     <hr />
   </div>
 </template>
@@ -14,5 +14,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

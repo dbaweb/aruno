@@ -1,5 +1,9 @@
 <template>
-  <progress class="progress has-margin-bottom-7 is-info" :value="pourcentage" max="100"></progress>
+  <progress
+    class="progress has-margin-bottom-7 is-info"
+    :value="pourcentage"
+    max="100"
+  ></progress>
 </template>
 
 <script>
