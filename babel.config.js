@@ -1,4 +1,4 @@
 module.exports = {
-  presets: ["@vue/cli-plugin-babel/preset"],
+  presets: "@babel/preset-env",
   publicPath: process.env.NODE_ENV === "production" ? "/Portfolio/" : "/"
 };
