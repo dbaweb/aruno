@@ -6,11 +6,11 @@
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "deploy.sh",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "ci:lint": "vue-cli-service lint --no-fix --max-warnings 0"
   },
   "author": "Arnaud De Boeck",
-  "homepage": "https://dbaweb.github.io/Portfolio",
+  "homepage": "https://github.com/dbaweb/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -19,7 +19,6 @@
     "@fortawesome/vue-fontawesome": "^0.1.8",
     "bulma": "^0.8.0",
     "core-js": "^3.3.2",
-    "gh-pages": "^2.1.1",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
   },
