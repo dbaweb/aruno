@@ -60,9 +60,9 @@ export default {
       programme: {
         titre: "Programme",
         skills: [
-          { nom: "Adobe Suite", pourcentage: 80 },
-          { nom: "Eclipse", pourcentage: 80 },
-          { nom: "Visual Studio Code", pourcentage: 90 }
+          { nom: "Visual Studio Code", pourcentage: 90 },
+          { nom: "Eclipse", pourcentage: 75 },
+          { nom: "Adobe Suite", pourcentage: 75 }
         ]
       },
       formation: {

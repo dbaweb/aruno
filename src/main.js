@@ -6,7 +6,11 @@ import {
   faUserSecret,
   faMobileAlt,
   faEnvelope,
-  faMapMarkerAlt
+  faMapMarkerAlt,
+  faHome,
+  faTasks,
+  faIdCard,
+  faGraduationCap
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faJs,
@@ -28,7 +32,11 @@ library.add(
   faTwitterSquare,
   faLinkedin,
   faGitSquare,
-  faGithubSquare
+  faGithubSquare,
+  faHome,
+  faTasks,
+  faIdCard,
+  faGraduationCap
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
