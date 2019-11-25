@@ -18,7 +18,17 @@ import {
   faTwitterSquare,
   faLinkedin,
   faGitSquare,
-  faGithubSquare
+  faGithubSquare,
+  faHtml5,
+  faCss3,
+  faJsSquare,
+  faPhp,
+  faYoutubeSquare,
+  faTwitch,
+  faInstagram,
+  faAngular,
+  faBootstrap,
+  faGoogle
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
@@ -36,7 +46,17 @@ library.add(
   faHome,
   faTasks,
   faIdCard,
-  faGraduationCap
+  faGraduationCap,
+  faHtml5,
+  faCss3,
+  faJsSquare,
+  faPhp,
+  faYoutubeSquare,
+  faTwitch,
+  faInstagram,
+  faAngular,
+  faBootstrap,
+  faGoogle
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

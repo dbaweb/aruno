@@ -4,31 +4,27 @@
       <div class="tile">
         <div class="tile is-parent is-vertical">
           <VerticalTile
-            v-for="item in vertical_tile"
+            v-for="item in vertical_tile2"
             :key="item.title"
             :title="item.title"
             :subtitle="item.subtitle"
             :technos="item.technos"
+            :linkSite="item.lien"
           ></VerticalTile>
         </div>
-        <div
-          class="tile is-parent"
-          v-for="item in middle_tile"
-          :key="item.title"
-        >
-          <MiddleTile
+        <div class="tile is-parent is-vertical">
+          <VerticalTile
+            v-for="item in vertical_tile1"
+            :key="item.title"
             :title="item.title"
             :subtitle="item.subtitle"
             :technos="item.technos"
-            :linkImg="item.linkImg"
             :linkSite="item.lien"
-          ></MiddleTile>
+          ></VerticalTile>
         </div>
       </div>
       <div class="tile is-parent">
-        <article
-          class="tile is-child notification has-text-dark has-background-white"
-        >
+        <article class="tile is-child notification has-text-dark article-white">
           <p class="title">{{ title_bottom }}</p>
         </article>
       </div>
@@ -38,63 +34,139 @@
 
 <script>
 import VerticalTile from "@/components/Galerie/VerticalTile";
-import MiddleTile from "@/components/Galerie/MiddleTile";
 export default {
   name: "Tiles",
-  components: { VerticalTile, MiddleTile },
+  components: { VerticalTile },
   data() {
     return {
       publicPath: process.env.BASE_URL,
       title: "Project",
       subtitle: "Presentation des projets réalisés",
       title_bottom: "A suivre...",
-      middle_tile: [
+      vertical_tile1: [
         {
           title: "Rose Bonbon",
           subtitle: "Création de site",
-          linkImg: process.env.BASE_URL + "img/LOGO_TEST.png",
           technos: [
-            { nom: "Html/Css", couleur: "has-background-primary" },
-            { nom: "Javascript", couleur: "has-background-success" },
-            { nom: "Php", couleur: "has-background-warning" },
-            { nom: "Bootstrap", couleur: "has-background-info" },
-            { nom: "Intagram API", couleur: "has-background-danger" }
+            {
+              nom: "Html",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "html5" }
+            },
+            {
+              nom: "Css",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "css3" }
+            },
+            {
+              nom: "Javascript",
+              couleur: "has-background-success",
+              icon: { type: "fab", nom: "js" }
+            },
+            {
+              nom: "Php",
+              couleur: "has-background-warning",
+              icon: { type: "fab", nom: "php" }
+            },
+            {
+              nom: "Bootstrap",
+              couleur: "has-background-info",
+              icon: { type: "fab", nom: "bootstrap" }
+            },
+            {
+              nom: "Intagram API",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "instagram" }
+            }
           ],
           lien: "http://www.rosebonbon.be"
         },
         {
-          title: "Malek",
+          title: "MalekCsgo",
           subtitle: "Intégration d'api",
-          linkImg: process.env.BASE_URL + "img/LOGO_TEST.png",
           technos: [
-            { nom: "Youtube API", couleur: "has-background-danger" },
-            { nom: "Twitch API", couleur: "has-background-danger" },
-            { nom: "Javascript", couleur: "has-background-success" },
-            { nom: "AngularJS", couleur: "has-background-link" }
+            {
+              nom: "Youtube API",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "youtube-square" }
+            },
+            {
+              nom: "Twitch API",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "twitch" }
+            },
+            {
+              nom: "Javascript",
+              couleur: "has-background-success",
+              icon: { type: "fab", nom: "js" }
+            },
+            {
+              nom: "AngularJS",
+              couleur: "has-background-link",
+              icon: { type: "fab", nom: "angular" }
+            }
           ],
           lien: "https://malekcsgo.fr/"
         }
       ],
-      vertical_tile: [
+      vertical_tile2: [
         {
           title: "Brosius",
-          subtitle: "Création de site",
+          subtitle: "Création de site - En cours",
           technos: [
-            { nom: "Html/Css", couleur: "has-background-primary" },
-            { nom: "Javascript", couleur: "has-background-success" },
-            { nom: "Php", couleur: "has-background-warning" },
-            { nom: "MaterializeCSS", couleur: "has-background-info" }
-          ],
-          lien: ""
+            {
+              nom: "Html",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "html5" }
+            },
+            {
+              nom: "Css",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "css3" }
+            },
+            {
+              nom: "Javascript",
+              couleur: "has-background-success",
+              icon: { type: "fab", nom: "js" }
+            },
+            {
+              nom: "Php",
+              couleur: "has-background-warning",
+              icon: { type: "fab", nom: "php" }
+            },
+            {
+              nom: "Firebase",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "google" }
+            },
+            {
+              nom: "MaterializeCSS",
+              couleur: "has-background-info",
+              icon: { type: "fab", nom: "instagram-square" }
+            }
+          ]
         },
         {
           title: "Mons 2015",
           subtitle: "Projet formation",
           technos: [
-            { nom: "Html/Css", couleur: "has-background-primary" },
-            { nom: "Javascript", couleur: "has-background-success" }
+            {
+              nom: "Html",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "html5" }
+            },
+            {
+              nom: "Css",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "css3" }
+            },
+            {
+              nom: "Javascript",
+              couleur: "has-background-success",
+              icon: { type: "fab", nom: "js" }
+            }
           ],
-          lien: ""
+          lien: "https://dbaweb.github.io/ProjectMons2015/"
         }
       ]
     };
