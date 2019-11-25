@@ -4,13 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --dest docs",
     "lint": "vue-cli-service lint",
     "deploy": "bash deploy.sh",
     "ci:lint": "vue-cli-service lint --no-fix --max-warnings 0"
   },
   "author": "Arnaud De Boeck",
-  "homepage": "https://github.com/dbaweb/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
