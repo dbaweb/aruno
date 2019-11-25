@@ -3,7 +3,7 @@
     <NavBar></NavBar>
     <div class="hero-body">
       <div class="container">
-        <img src="@/assets/img/Aruno-Logo-White.png" alt />
+        <img src="@/assets/img/Aruno-Logo-White-compressor.png" alt />
       </div>
     </div>
     <Footer></Footer>
