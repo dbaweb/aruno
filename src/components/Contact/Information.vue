@@ -21,12 +21,13 @@
         </p>
         <hr class="has-margin-top-5 has-margin-bottom-5" />
         <p class="title is-2">
-          <font-awesome-icon
-            v-for="item in socialIcon"
-            :key="item.nom"
-            :icon="[item.type, item.nom]"
-            style="margin-right:0.2em;"
-          />
+          <a :href="item.link" v-for="item in socialIcon" target="_blank" :key="item.nom">
+            <font-awesome-icon
+              :key="item.nom"
+              :icon="[item.type, item.nom]"
+              style="margin-right:0.2em;"
+            />
+          </a>
         </p>
       </div>
       <div class="column">
@@ -41,7 +42,7 @@ export default {
   name: "From",
   data() {
     return {
-      titre: "Information",
+      titre: "Informations",
       nom: "De Boeck",
       prenom: "Arnaud",
       tel: "+32 474 785 158",
@@ -50,23 +51,23 @@ export default {
       socialIcon: [
         {
           type: "fab",
-          nom: "facebook-square"
+          nom: "twitter-square",
+          link: "https://twitter.com/ArunoDev"
         },
         {
           type: "fab",
-          nom: "twitter-square"
+          nom: "linkedin",
+          link: "https://www.linkedin.com/in/arnaud-de-boeck-267962b0/"
         },
         {
           type: "fab",
-          nom: "linkedin"
+          nom: "git-square",
+          link: "https://www.linkedin.com/in/arnaud-de-boeck-267962b0/"
         },
         {
           type: "fab",
-          nom: "git-square"
-        },
-        {
-          type: "fab",
-          nom: "github-square"
+          nom: "github-square",
+          link: "https://dbaweb.github.io/aruno"
         }
       ]
     };
