@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import Form from "./Form";
-import Information from "./Information";
+import Form from "@/components/Contact/Form";
+import Information from "@/components/Contact/Information";
 export default {
   name: "ContactTile",
   components: { Form, Information },

@@ -1,6 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import Home from "@/views/Home.vue";
+import Project from "@/views/Project.vue";
+import Skill from "@/views/Skill.vue";
+import Contact from "@/views/About.vue";
 
 Vue.use(VueRouter);
 
@@ -14,22 +17,21 @@ const routes = [
   {
     path: "/project",
     name: "project",
-    component: () => import("../views/Project.vue")
+    component: Project
   },
   {
     path: "/skill",
     name: "skill",
-    component: () => import("../views/Skill.vue")
+    component: Skill
   },
   {
     path: "/about",
     name: "about",
-    component: () => import("../views/About.vue")
+    component: Contact
   }
 ];
 
 const router = new VueRouter({
-  mode: "history",
   base: process.env.BASE_URL,
   routes,
   linkActiveClass: "is-active"

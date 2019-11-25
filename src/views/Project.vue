@@ -13,8 +13,8 @@
 
 <script>
 import Tiles from "@/components/Galerie/TilesGalerie";
-import NavBar from "../NavBar";
-import Footer from "../Footer";
+import NavBar from "@/NavBar";
+import Footer from "@/Footer";
 export default {
   name: "Project",
   components: { Tiles, NavBar, Footer },

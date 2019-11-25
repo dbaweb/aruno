@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import NavBar from "../NavBar";
-import Footer from "../Footer";
+import NavBar from "@/NavBar";
+import Footer from "@/Footer";
 import ContactTile from "@/components/Contact/ContacTile";
 export default {
   name: "Contact",

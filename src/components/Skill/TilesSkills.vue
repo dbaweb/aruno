@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import SkillsTile from "./SkillsTile";
-import FormationTile from "./FormationTile";
+import SkillsTile from "@/components/Skill/SkillsTile";
+import FormationTile from "@/components/Skill/FormationTile";
 export default {
   name: "Tiles",
   components: { SkillsTile, FormationTile },

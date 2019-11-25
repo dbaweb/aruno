@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Formation from "./Formation";
+import Formation from "@/components/Skill/Formation";
 export default {
   name: "FormationTile",
   props: ["data"],

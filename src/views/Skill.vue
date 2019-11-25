@@ -13,7 +13,7 @@
 
 <script>
 import TilesSkills from "@/components/Skill/TilesSkills";
-import NavBar from "../NavBar";
+import NavBar from "@/NavBar";
 import Footer from "@/Footer";
 export default {
   name: "Skill",

@@ -37,8 +37,8 @@
 </template>
 
 <script>
-import VerticalTile from "./VerticalTile";
-import MiddleTile from "./MiddleTile";
+import VerticalTile from "@/components/Galerie/VerticalTile";
+import MiddleTile from "@/components/Galerie/MiddleTile";
 export default {
   name: "Tiles",
   components: { VerticalTile, MiddleTile },

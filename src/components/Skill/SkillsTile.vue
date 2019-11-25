@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import ProgressBar from "./ProgressBar";
+import ProgressBar from "@/components/Skill/ProgressBar";
 export default {
   name: "ProgressBarTile",
   props: ["data", "color"],
