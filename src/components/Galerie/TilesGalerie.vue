@@ -44,6 +44,7 @@ export default {
   components: { VerticalTile, MiddleTile },
   data() {
     return {
+      publicPath: process.env.BASE_URL,
       title: "Project",
       subtitle: "Presentation des projets réalisés",
       title_bottom: "A suivre...",
@@ -51,7 +52,7 @@ export default {
         {
           title: "Rose Bonbon",
           subtitle: "Création de site",
-          linkImg: "<%= BASE_URL %>/img/LOGO_TEST.png",
+          linkImg: process.env.BASE_URL + "img/LOGO_TEST.png",
           technos: [
             { nom: "Html/Css", couleur: "has-background-primary" },
             { nom: "Javascript", couleur: "has-background-success" },
@@ -64,7 +65,7 @@ export default {
         {
           title: "Malek",
           subtitle: "Intégration d'api",
-          linkImg: "<%= BASE_URL %>/img/LOGO_TEST.png",
+          linkImg: process.env.BASE_URL + "img/LOGO_TEST.png",
           technos: [
             { nom: "Youtube API", couleur: "has-background-danger" },
             { nom: "Twitch API", couleur: "has-background-danger" },
