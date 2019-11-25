@@ -4,7 +4,7 @@
       <div class="tile">
         <div class="tile is-parent is-vertical">
           <VerticalTile
-            v-for="item in vertical_tile2"
+            v-for="item in vertical_tile1"
             :key="item.title"
             :title="item.title"
             :subtitle="item.subtitle"
@@ -14,7 +14,7 @@
         </div>
         <div class="tile is-parent is-vertical">
           <VerticalTile
-            v-for="item in vertical_tile1"
+            v-for="item in vertical_tile2"
             :key="item.title"
             :title="item.title"
             :subtitle="item.subtitle"
