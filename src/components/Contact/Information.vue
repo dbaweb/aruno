@@ -8,22 +8,16 @@
         <hr class="has-margin-bottom-5" />
         <h2 class="title is-4 has-margin-bottom-6">{{ prenom + " " + nom }}</h2>
         <p class="title is-6">
-          <font-awesome-icon
-            :icon="['fas', 'mobile-alt']"
-            class="has-margin-right-6"
-          />{{ tel }}
+          <font-awesome-icon :icon="['fas', 'mobile-alt']" class="has-margin-right-6" />
+          {{ tel }}
         </p>
         <p class="title is-6">
-          <font-awesome-icon
-            :icon="['fas', 'envelope']"
-            class="has-margin-right-6"
-          />{{ mail }}
+          <font-awesome-icon :icon="['fas', 'envelope']" class="has-margin-right-6" />
+          {{ mail }}
         </p>
         <p class="title is-6">
-          <font-awesome-icon
-            :icon="['fas', 'map-marker-alt']"
-            class="has-margin-right-6"
-          />{{ location }}
+          <font-awesome-icon :icon="['fas', 'map-marker-alt']" class="has-margin-right-6" />
+          {{ location }}
         </p>
         <hr class="has-margin-top-5 has-margin-bottom-5" />
         <p class="title is-2">
@@ -36,7 +30,7 @@
         </p>
       </div>
       <div class="column">
-        <img src="../../assets/img/profil.png" alt />
+        <img src="../../assets/img/profil-compressor.png" alt />
       </div>
     </div>
   </article>
