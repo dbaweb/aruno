@@ -11,11 +11,7 @@
             :technos="item.technos"
           ></VerticalTile>
         </div>
-        <div
-          class="tile is-parent"
-          v-for="item in middle_tile"
-          :key="item.title"
-        >
+        <div class="tile is-parent" v-for="item in middle_tile" :key="item.title">
           <MiddleTile
             :title="item.title"
             :subtitle="item.subtitle"
@@ -26,9 +22,7 @@
         </div>
       </div>
       <div class="tile is-parent">
-        <article
-          class="tile is-child notification has-text-dark has-background-white"
-        >
+        <article class="tile is-child notification has-text-dark has-background-white">
           <p class="title">{{ title_bottom }}</p>
         </article>
       </div>
@@ -51,7 +45,7 @@ export default {
         {
           title: "Rose Bonbon",
           subtitle: "Création de site",
-          linkImg: "@/assets/img/LOGO_TEST.png",
+          linkImg: "../../assets/img/LOGO_TEST.png",
           technos: [
             { nom: "Html/Css", couleur: "has-background-primary" },
             { nom: "Javascript", couleur: "has-background-success" },
@@ -64,7 +58,7 @@ export default {
         {
           title: "Malek",
           subtitle: "Intégration d'api",
-          linkImg: "@/assets/img/LOGO_TEST.png",
+          linkImg: "../../assets/img/LOGO_TEST.png",
           technos: [
             { nom: "Youtube API", couleur: "has-background-danger" },
             { nom: "Twitch API", couleur: "has-background-danger" },
