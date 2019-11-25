@@ -45,45 +45,8 @@ export default {
       title_bottom: "A suivre...",
       vertical_tile1: [
         {
-          title: "Rose Bonbon",
-          subtitle: "Création de site",
-          technos: [
-            {
-              nom: "Html",
-              couleur: "has-background-primary",
-              icon: { type: "fab", nom: "html5" }
-            },
-            {
-              nom: "Css",
-              couleur: "has-background-primary",
-              icon: { type: "fab", nom: "css3" }
-            },
-            {
-              nom: "Javascript",
-              couleur: "has-background-success",
-              icon: { type: "fab", nom: "js" }
-            },
-            {
-              nom: "Php",
-              couleur: "has-background-warning",
-              icon: { type: "fab", nom: "php" }
-            },
-            {
-              nom: "Bootstrap",
-              couleur: "has-background-info",
-              icon: { type: "fab", nom: "bootstrap" }
-            },
-            {
-              nom: "Intagram API",
-              couleur: "has-background-danger",
-              icon: { type: "fab", nom: "instagram" }
-            }
-          ],
-          lien: "http://www.rosebonbon.be"
-        },
-        {
           title: "MalekCsgo",
-          subtitle: "Intégration d'api",
+          subtitle: "Intégration d'api - En cours",
           technos: [
             {
               nom: "Youtube API",
@@ -107,9 +70,7 @@ export default {
             }
           ],
           lien: "https://malekcsgo.fr/"
-        }
-      ],
-      vertical_tile2: [
+        },
         {
           title: "Brosius",
           subtitle: "Création de site - En cours",
@@ -145,6 +106,45 @@ export default {
               icon: { type: "fab", nom: "instagram-square" }
             }
           ]
+        }
+      ],
+      vertical_tile2: [
+        {
+          title: "Rose Bonbon",
+          subtitle: "Création de site",
+          technos: [
+            {
+              nom: "Html",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "html5" }
+            },
+            {
+              nom: "Css",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "css3" }
+            },
+            {
+              nom: "Javascript",
+              couleur: "has-background-success",
+              icon: { type: "fab", nom: "js" }
+            },
+            {
+              nom: "Php",
+              couleur: "has-background-warning",
+              icon: { type: "fab", nom: "php" }
+            },
+            {
+              nom: "Bootstrap",
+              couleur: "has-background-info",
+              icon: { type: "fab", nom: "bootstrap" }
+            },
+            {
+              nom: "Intagram API",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "instagram" }
+            }
+          ],
+          lien: "http://www.rosebonbon.be"
         },
         {
           title: "Mons 2015",
