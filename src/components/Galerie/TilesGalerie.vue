@@ -96,6 +96,10 @@ export default {
               icon: { type: "fab", nom: "php" }
             },
             {
+              nom: "ReactJs",
+              couleur: "has-background-danger"
+            },
+            {
               nom: "Firebase",
               couleur: "has-background-danger",
               icon: { type: "fab", nom: "google" }
@@ -105,7 +109,8 @@ export default {
               couleur: "has-background-info",
               icon: { type: "fab", nom: "instagram-square" }
             }
-          ]
+          ],
+          lien: "https://www.gerardbrosius.eu/"
         }
       ],
       vertical_tile2: [
