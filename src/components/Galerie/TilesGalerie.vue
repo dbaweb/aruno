@@ -72,7 +72,7 @@ export default {
           lien: "https://malekcsgo.fr/"
         },
         {
-          title: "Brosius",
+          title: "Gerard Brosius",
           subtitle: "Création de site - En cours",
           technos: [
             {
