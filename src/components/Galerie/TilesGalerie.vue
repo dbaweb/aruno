@@ -97,7 +97,8 @@ export default {
             },
             {
               nom: "ReactJs",
-              couleur: "has-background-danger"
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "react" }
             },
             {
               nom: "Firebase",
