@@ -73,7 +73,7 @@ export default {
         },
         {
           title: "Gerard Brosius",
-          subtitle: "Création de site - En cours",
+          subtitle: "Création de site",
           technos: [
             {
               nom: "Html",
