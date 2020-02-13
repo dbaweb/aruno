@@ -47,6 +47,7 @@ export default {
           { nom: "Angular", pourcentage: 50 },
           { nom: "React", pourcentage: 50 },
           { nom: "Vue", pourcentage: 70 },
+          { nom: "Symfony", pourcentage: 50 },
           { nom: "Bootstrap/Bulma/Materialize", pourcentage: 90 }
         ]
       },
