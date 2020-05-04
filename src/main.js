@@ -29,7 +29,8 @@ import {
   faAngular,
   faBootstrap,
   faGoogle,
-  faReact
+  faReact,
+    faSymfony
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
@@ -58,7 +59,8 @@ library.add(
   faAngular,
   faBootstrap,
   faGoogle,
-  faReact
+  faReact,
+    faSymfony
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

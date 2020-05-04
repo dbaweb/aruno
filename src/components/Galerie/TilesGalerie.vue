@@ -45,18 +45,18 @@ export default {
       title_bottom: "A suivre...",
       vertical_tile1: [
         {
-          title: "MalekCsgo",
-          subtitle: "Intégration d'api - En cours",
+          title: "Alpha High End - Occasions",
+          subtitle: "Création de site web - en cours",
           technos: [
             {
-              nom: "Youtube API",
-              couleur: "has-background-danger",
-              icon: { type: "fab", nom: "youtube-square" }
+              nom: "Html",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "html5" }
             },
             {
-              nom: "Twitch API",
-              couleur: "has-background-danger",
-              icon: { type: "fab", nom: "twitch" }
+              nom: "Css",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "css3" }
             },
             {
               nom: "Javascript",
@@ -64,12 +64,117 @@ export default {
               icon: { type: "fab", nom: "js" }
             },
             {
-              nom: "AngularJS",
-              couleur: "has-background-link",
-              icon: { type: "fab", nom: "angular" }
+              nom: "Php",
+              couleur: "has-background-warning",
+              icon: { type: "fab", nom: "php" }
+            },
+            {
+              nom: "Symfony 4",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "symfony" }
+            },
+          ],
+          lien: ""
+        },
+        {
+          title: "Clothes Udemy",
+          subtitle: "Webshop ReactJs app for Udemy formation",
+          technos: [
+            {
+              nom: "Html",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "html5" }
+            },
+            {
+              nom: "Css",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "css3" }
+            },
+            {
+              nom: "Javascript",
+              couleur: "has-background-success",
+              icon: { type: "fab", nom: "js" }
+            },
+            {
+              nom: "ReactJs",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "react" }
+            },
+            {
+              nom: "Firebase",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "google" }
             }
           ],
-          lien: "https://malekcsgo.fr/"
+          lien: "https://clothes-udemy.herokuapp.com/"
+        },
+
+        {
+          title: "Rose Bonbon",
+          subtitle: "Création de site",
+          technos: [
+            {
+              nom: "Html",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "html5" }
+            },
+            {
+              nom: "Css",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "css3" }
+            },
+            {
+              nom: "Javascript",
+              couleur: "has-background-success",
+              icon: { type: "fab", nom: "js" }
+            },
+            {
+              nom: "Php",
+              couleur: "has-background-warning",
+              icon: { type: "fab", nom: "php" }
+            },
+            {
+              nom: "Bootstrap",
+              couleur: "has-background-info",
+              icon: { type: "fab", nom: "bootstrap" }
+            },
+            {
+              nom: "Intagram API",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "instagram" }
+            }
+          ],
+          lien: "http://www.rosebonbon.be"
+        },
+      ],
+      vertical_tile2: [
+
+        {
+          title: "Monster Udemy",
+          subtitle: "Simple ReactJs app for Udemy formation",
+          technos: [
+            {
+              nom: "Html",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "html5" }
+            },
+            {
+              nom: "Css",
+              couleur: "has-background-primary",
+              icon: { type: "fab", nom: "css3" }
+            },
+            {
+              nom: "Javascript",
+              couleur: "has-background-success",
+              icon: { type: "fab", nom: "js" }
+            },
+            {
+              nom: "ReactJs",
+              couleur: "has-background-danger",
+              icon: { type: "fab", nom: "react" }
+            },
+          ],
+          lien: "https://dbaweb.github.io/monsters-react-udemy/"
         },
         {
           title: "Gerard Brosius",
@@ -112,45 +217,6 @@ export default {
             }
           ],
           lien: "https://www.gerardbrosius.eu/"
-        }
-      ],
-      vertical_tile2: [
-        {
-          title: "Rose Bonbon",
-          subtitle: "Création de site",
-          technos: [
-            {
-              nom: "Html",
-              couleur: "has-background-primary",
-              icon: { type: "fab", nom: "html5" }
-            },
-            {
-              nom: "Css",
-              couleur: "has-background-primary",
-              icon: { type: "fab", nom: "css3" }
-            },
-            {
-              nom: "Javascript",
-              couleur: "has-background-success",
-              icon: { type: "fab", nom: "js" }
-            },
-            {
-              nom: "Php",
-              couleur: "has-background-warning",
-              icon: { type: "fab", nom: "php" }
-            },
-            {
-              nom: "Bootstrap",
-              couleur: "has-background-info",
-              icon: { type: "fab", nom: "bootstrap" }
-            },
-            {
-              nom: "Intagram API",
-              couleur: "has-background-danger",
-              icon: { type: "fab", nom: "instagram" }
-            }
-          ],
-          lien: "http://www.rosebonbon.be"
         },
         {
           title: "Mons 2015",

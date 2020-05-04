@@ -44,10 +44,10 @@ export default {
       framework: {
         titre: "Framework",
         skills: [
-          { nom: "Angular", pourcentage: 50 },
-          { nom: "React", pourcentage: 50 },
-          { nom: "Vue", pourcentage: 70 },
-          { nom: "Symfony", pourcentage: 50 },
+          { nom: "ReactJs", pourcentage: 75 },
+          { nom: "VueJs", pourcentage: 70 },
+          { nom: "AngularJs", pourcentage: 50 },
+          { nom: "Symfony 4", pourcentage: 65 },
           { nom: "Bootstrap/Bulma/Materialize", pourcentage: 90 }
         ]
       },
@@ -62,6 +62,8 @@ export default {
         titre: "Programme",
         skills: [
           { nom: "Visual Studio Code", pourcentage: 90 },
+          { nom: "PhpStorm", pourcentage: 75 },
+          { nom: "WebStonr", pourcentage: 75 },
           { nom: "Eclipse", pourcentage: 75 },
           { nom: "Adobe Suite", pourcentage: 75 }
         ]
@@ -92,6 +94,12 @@ export default {
             lieu: "Bruxelles",
             type: "Bachelier",
             diplome: "Arrêt en fin de deuxième année"
+          },
+          {
+            nom: "Complete React Developer in 2020 (w/ Redux, Hooks, GraphQL)",
+            lieu: "Udemy.com",
+            type: "Formation",
+            diplome: "En cours"
           }
         ]
       }
